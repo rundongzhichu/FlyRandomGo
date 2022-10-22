@@ -1,0 +1,214 @@
+.depature-destination{
+	display: flex;
+	width: 95%;
+	height: fit-content;
+	margin: 5px auto;
+	background: #F4F4F5;
+	border-radius: 10px;
+	vertical-align: middle;
+	-webkit-align-items: center;
+}
+
+.departure{
+	height: 40px;
+	border-radius: 10px;
+	border: lightgrey solid 1px;
+	margin: 6px 5px 6px 10px;/*上右下左*/
+	padding: 2px 15px 2px 15px;
+	font-size: 20px;
+}
+
+.to{
+	height: 40px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.destination{
+	height: 40px;
+	border-radius: 10px;
+	border: lightgrey solid 1px;
+	margin: 6px 8px 6px 5px;/*//上右下左*/
+	padding: 2px 15px 2px 15px;
+	font-size: 20px;
+}
+
+.search{
+	border-radius: 10px;
+	border: #A9AAB1 solid 2px;
+	width: 80px;
+	height: 40px;
+	margin: 6px 0px 6px 0px;//上右下左
+	background: lightgrey;
+	font-size: 20px;
+}
+
+.search:hover{
+	background:lightslategrey;
+}
+
+.calenders{
+	display: block;
+	width: 95%;
+	height: fit-content;
+	margin: 10px auto;
+	background: #F4F4F5;
+	border-radius: 10px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	opacity: 87%;
+}
+
+.calender-wrap{
+	width: 93%;
+	height: 500px;
+	border-radius: 10px;
+	background:lightgray;
+	margin: 0 0 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 30px;
+}
+
+.title-bar-wrap{
+	width: 100%;
+	flex: 8%;
+	height: 60px;
+	display: flex;
+	background: gray;
+	-webkit-border-top-left-radius: 10px;
+ 	-webkit-border-top-right-radius: 10px;
+}
+
+.month-choose{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	width:170px;
+}
+
+.delim{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 100%;
+}
+
+.depdes{
+	display: flex;
+	padding-left: 20px;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.depname{
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+
+}
+.goandback{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 40px;
+}
+.desname{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+.calender{
+	flex: 92%;
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+	background:lightgray;
+	margin: 0 0 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+}
+
+.fly-search{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	background: black;
+	opacity: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.depature-choose{
+	flex: 0.3;
+	width: fit-content;
+	font-size: 20px;
+	color: white;
+}
+.back-choose{
+	width: fit-content;
+	flex: 0.3;
+	font-size: 20px;
+	color: white;
+}
+
+.fill{
+	flex: 0.7;
+}
+
+#choose-go-time{
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#choose-back-time{
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.bottom-search{
+	flex: 0.1;
+	width: 40px;
+	height: 40px;
+}
+.btn-search{
+	flex: 0.1;
+	height: 40px;
+	color: white;
+	background: gray;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+
+  /*
+   * <div class="fly-search" >
+  	<div class="depature-choose"><span>启程</span><span id="choose-go-time">请输入启程时间</span></div>
+  	<div class="back-choose"><span>返程</span><span id="choose-back-time">请输入返程时间</span></div>
+  	<embed class="bottom-search" src="svg/search.svg"></embed>
+  </div>*/
+
